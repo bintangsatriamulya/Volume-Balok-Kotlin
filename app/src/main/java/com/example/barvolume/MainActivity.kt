@@ -7,13 +7,14 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 
-private lateinit var editWidth: EditText
-private lateinit var editHeight: EditText
-private lateinit var editLength: EditText
-private lateinit var btnCalculate: Button
-private lateinit var tvResult: TextView
+
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
+    private lateinit var editWidth: EditText
+    private lateinit var editHeight: EditText
+    private lateinit var editLength: EditText
+    private lateinit var btnCalculate: Button
+    private lateinit var tvResult: TextView
 
     companion object {
         private const val STATE_RESULT = "state_result"
